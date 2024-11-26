@@ -1,0 +1,144 @@
+:root { /*2*/
+    --primary-color: #34495E;
+    --accent-color: #A9CCE3;
+    --highlights-color: #F1948A;
+    --background-color: #F7F1E3;
+    --text-color: #34495E;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: var(--accent-color);
+}
+
+#pageroot {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding-top: 3vh;
+    height: 10vh;
+    bottom: 0;
+}
+
+footer p {
+    color: var(--background-color)
+}
+
+/* Custom navbar */
+.custom-navbar {
+    background-color: var(--primary-color);
+}
+
+.custom-navbar a {
+    text-decoration: none;
+    color: var(--background-color);
+}
+
+.custom-navbar a:hover {
+    color: var(--highlights-color);
+}
+
+.custom-navbar .dropdown-toggle:hover {
+    color: var(--highlights-color);
+}
+
+.custom-navbar .dropdown-menu {
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.custom-navbar .dropdown-item:hover a {
+    color: var(--highlights-color);
+}
+
+.custom-navbar .dropdown-item:hover {
+    background-color: var(--primary-color);
+    
+}
+
+.custom-navbar .nav-link {
+    color: var(--background-color);
+}
+
+.navbar-nav .nav-link.show {
+    color: var(--highlights-color);
+}
+
+.custom-navbar button {
+    background-color: var(--accent-color);
+    border: none;
+}
+
+.custom-navbar button:hover {
+    background-color: var(--highlights-color);
+}
+
+.custom-navbar button:active{
+    background-color: var(--highlights-color);
+}
+
+.scaleUp {
+    transition: all .2s;
+}
+
+.scaleUp:hover {
+    transform: scale(1.005);
+    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+#createButton {
+    background-color: green;
+    border: none;
+}
+
+#createButton:hover {
+    background-color: green;
+}
+
+#createButton:active{
+    background-color: green;
+}
+
+#updateButton {
+    background-color: #5DADE2;
+    border: none;
+}
+
+#updateButton:hover {
+    background-color: #5DADE2;
+}
+
+#updateButton:active{
+    background-color: #5DADE2;
+}
+
+#deleteButton {
+    background-color: darkred;
+    border: none;
+}
+
+#deleteButton:hover {
+    background-color: darkred;
+}
+
+#deleteButton:active{
+    background-color: darkred;
+}
+
+.adminPanel {
+    margin-top: 0;
+    margin-bottom: auto;
+}

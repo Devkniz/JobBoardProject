@@ -1,0 +1,73 @@
+@import url('./Global.css');
+
+.offers-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.allOffers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.offer {
+    height: 43vh;
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    border-radius: 3vh;
+    background-color: var(--background-color);
+}
+
+.pages-nb {
+    margin-top: auto;
+    margin-bottom: 2vh;
+}
+
+.offer .btn {
+    margin-top: auto;
+    margin-bottom: 2vh;
+}
+
+.pages-nb .btn {
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.offer .btn:hover,
+.pages-nb .btn:hover {
+    background-color: var(--highlights-color);
+}
+
+.offer .btn:active,
+.pages-nb .btn:active {
+    background-color: var(--highlights-color);
+}
+
+.applicationsCount {
+    border: 2px solid var(--text-color);
+    border-radius: 4px;
+    background-color: #F0F4F7;
+    padding: 5px 10px;
+    font-weight: bold;
+    width: 6vh;
+    margin-top: auto;
+    margin-bottom: 2vh;
+}
+
+

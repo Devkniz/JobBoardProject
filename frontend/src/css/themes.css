@@ -1,0 +1,39 @@
+:root { /*1*/
+    --primary-color: #1F3B4D;
+    --accent-color: #5DADE2;
+    --highlights-color: #F39C12;
+    --background-color: #F0F4F7;
+    --text-color: #2C3E50;
+}
+
+:root { /*2*/
+    --primary-color: #34495E;
+    --accent-color: #A9CCE3;
+    --highlights-color: #F1948A;
+    --background-color: #F7F1E3;
+    --text-color: #34495E;
+}
+
+:root { /*3*/
+    --primary-color: #6C3483;
+    --accent-color: #D2B4DE;
+    --highlights-color: #82E0AA;
+    --background-color: #F5F5F5;
+    --text-color: #1C1C1C;
+}
+
+:root { /*4*/
+    --primary-color: #F8C471;
+    --accent-color: #76D7C4;
+    --highlights-color: #48C9B0;
+    --background-color: #FFFDE7;
+    --text-color: #5D4037;
+}
+
+:root { /*5*/
+    --primary-color: #3498DB;
+    --accent-color: #F1C40F;
+    --highlights-color: #00CEC9;
+    --background-color: #2C3E50;
+    --text-color: #ECF0F1;
+}
