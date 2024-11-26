@@ -22,6 +22,7 @@ A job board project as a three man team for school, using Nod.Js and React made 
 - **Frameworks**: Bootstrap
 
 ## Getting Started
+Search jobs from the search bar and apply directly from it or sign in and have save you application préférences.
 
 ### Prerequisites
 
